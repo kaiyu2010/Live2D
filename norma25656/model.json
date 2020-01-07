@@ -1,0 +1,31 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": [
+    "model.1024/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.HEAD"
+    },
+    {
+      "name": "leg",
+      "id": "D_REF.LEG"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.BODY"
+    }
+  ],
+  "motions": {
+    "idle": [],
+    "tap_body": [
+      {
+        "file": "motions/login.mtn",
+        "sound": "voice/zhuiliezhezdsl1.mp3"
+      }
+    ]
+  },
+  "physics": "physics.json"
+}
